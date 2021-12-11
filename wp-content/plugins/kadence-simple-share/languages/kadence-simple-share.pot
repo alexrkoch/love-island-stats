@@ -1,0 +1,337 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kadence Simple Share\n"
+"POT-Creation-Date: 2018-01-04 11:07-0700\n"
+"PO-Revision-Date: 2015-05-08 13:15-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/options_assets/extensions/"
+"vendor_support\n"
+"X-Poedit-SearchPathExcluded-1: admin/redux\n"
+"X-Poedit-SearchPathExcluded-2: admin/cmb\n"
+
+#: admin/admin_options.php:26
+msgid "KT Share"
+msgstr ""
+
+#: admin/admin_options.php:27
+msgid "Kadence Simple Social Share"
+msgstr ""
+
+#: admin/admin_options.php:45
+msgid ""
+"Thank you for using Kadence Simple Share by <a href=\"http://kadencethemes."
+"com/\" target=\"_blank\">Kadence Themes</a>."
+msgstr ""
+
+#: admin/admin_options.php:102
+msgid "Sharing Options"
+msgstr ""
+
+#: admin/admin_options.php:108
+msgid "Enabled Sharing Sites"
+msgstr ""
+
+#: admin/admin_options.php:109
+msgid "Enabled and rearange the order for your social networks"
+msgstr ""
+
+#: admin/admin_options.php:133
+msgid "Sharing Style"
+msgstr ""
+
+#: admin/admin_options.php:134
+msgid "Choose a style for your social icons"
+msgstr ""
+
+#: admin/admin_options.php:147
+msgid "Sharing Size"
+msgstr ""
+
+#: admin/admin_options.php:148
+msgid "Normal"
+msgstr ""
+
+#: admin/admin_options.php:148
+msgid "Large"
+msgstr ""
+
+#: admin/admin_options.php:156
+msgid "Optional Text before icons"
+msgstr ""
+
+#: admin/admin_options.php:162
+msgid "Sharing Placement"
+msgstr ""
+
+#: admin/admin_options.php:163
+msgid "Before Content"
+msgstr ""
+
+#: admin/admin_options.php:163
+msgid "After Content"
+msgstr ""
+
+#: admin/admin_options.php:163
+msgid "Both before and after content"
+msgstr ""
+
+#: admin/admin_options.php:170
+msgid "Sharing Align"
+msgstr ""
+
+#: admin/admin_options.php:171
+msgid "Left"
+msgstr ""
+
+#: admin/admin_options.php:171
+msgid "Center"
+msgstr ""
+
+#: admin/admin_options.php:171
+msgid "Right"
+msgstr ""
+
+#: admin/admin_options.php:179
+msgid "Enable for Blog posts?"
+msgstr ""
+
+#: admin/admin_options.php:180
+msgid "Choose to enable sharing icons on blog posts"
+msgstr ""
+
+#: admin/admin_options.php:187
+msgid "Enable for Pages?"
+msgstr ""
+
+#: admin/admin_options.php:188
+msgid "Choose to enable sharing icons on pages"
+msgstr ""
+
+#: admin/admin_options.php:195
+msgid "Enable for Portfolio posts?"
+msgstr ""
+
+#: admin/admin_options.php:196
+msgid "Choose to enable sharing icons on portfolio posts"
+msgstr ""
+
+#: admin/admin_options.php:203
+msgid "Enable for Products?"
+msgstr ""
+
+#: admin/admin_options.php:204
+msgid ""
+"Choose to enable sharing icons on products (note only one positon for "
+"products)"
+msgstr ""
+
+#: admin/admin_options.php:211
+msgid "Enable for tooltips"
+msgstr ""
+
+#: admin/admin_options.php:212
+msgid "Choose to enable popup tooltips for social links"
+msgstr ""
+
+#: admin/admin_options.php:218
+msgid "Tooltip Align"
+msgstr ""
+
+#: admin/admin_options.php:219
+msgid "Bottom"
+msgstr ""
+
+#: admin/admin_options.php:219
+msgid "Top"
+msgstr ""
+
+#: admin/admin_options.php:227
+msgid "Tooltip text before social network name"
+msgstr ""
+
+#: admin/admin_options.php:234
+msgid "Force featured image for Pinterest share"
+msgstr ""
+
+#: admin/admin_options.php:235
+msgid "This will make the feartured image the only image to share on pinterest"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:735
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:736
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:737
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:770
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:771
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:772
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_panel.php:54
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_panel.php:78
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#. translators: &#9656; is the unicode right-pointing triangle, and %s is the section title in the Customizer
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:35
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:37
+msgid "Customizing"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:61
+msgid "Press return or enter to open"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:67
+msgid "Back"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:106
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:50
+msgid "Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:55
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:53
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:110
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:178
+msgid "Upload Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:116
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:180
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:115
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:161
+msgid "Remove"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:119
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:184
+msgid "Select an Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:139
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:203
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:121
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:166
+msgid "URL"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:140
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:205
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:122
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:168
+msgid "Title"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:141
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:207
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:123
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:170
+msgid "Description"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:142
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:209
+msgid "Icon Link"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:146
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:214
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:128
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:177
+msgid "Open Link in New Tab/Window"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:156
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:223
+msgid "Delete Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:226
+msgid "Add Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:48
+msgid "Slide"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:108
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:159
+msgid "Upload"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:124
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:172
+msgid "Slide Link"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:137
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:185
+msgid "Delete Slide"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:188
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: kadence-simple-share.php:86
+msgid "Simple Share Control"
+msgstr ""
+
+#: kadence-simple-share.php:91
+msgid "Simple Sharing Display"
+msgstr ""
+
+#: kadence-simple-share.php:95
+msgid "Default"
+msgstr ""
+
+#: kadence-simple-share.php:96
+msgid "Show"
+msgstr ""
+
+#: kadence-simple-share.php:97
+msgid "Hide"
+msgstr ""

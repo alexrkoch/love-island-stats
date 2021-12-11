@@ -1,0 +1,754 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kadence Reading Time\n"
+"POT-Creation-Date: 2020-10-28 17:14-0600\n"
+"PO-Revision-Date: 2015-05-08 13:15-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr_e;esc_attr__;esc_html__;"
+"esc_html_e;esc_attr_x;_x;esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin_options.php:35 includes/metaboxes.php:32
+msgid "Reading Time"
+msgstr ""
+
+#: includes/admin_options.php:36
+msgid "Kadence Reading Time"
+msgstr ""
+
+#: includes/admin_options.php:54
+msgid ""
+"Thank you for using Kadence Reading Time by <a href=\"http://kadencewp.com/"
+"\" target=\"_blank\">Kadence WP</a>."
+msgstr ""
+
+#: includes/admin_options.php:114
+msgid ""
+"Insert reading time before content on single posts (you can override on post)"
+msgstr ""
+
+#: includes/admin_options.php:120
+msgid "Insert reading time for excerpts on archive pages"
+msgstr ""
+
+#: includes/admin_options.php:126
+msgid "Choose Words per minute to calculate read time by."
+msgstr ""
+
+#: includes/admin_options.php:127
+msgid "The default is 250"
+msgstr ""
+
+#: includes/admin_options.php:136
+msgid "Label"
+msgstr ""
+
+#: includes/admin_options.php:137
+msgid "Default: Reading Time:"
+msgstr ""
+
+#: includes/admin_options.php:142
+msgid "Postfix"
+msgstr ""
+
+#: includes/admin_options.php:143
+msgid "Default: minutes"
+msgstr ""
+
+#: includes/admin_options.php:148
+msgid "Postfix for singular, when there is minimum of 1"
+msgstr ""
+
+#: includes/admin_options.php:149
+msgid "Default: minute"
+msgstr ""
+
+#: includes/admin_options.php:156
+msgid "Insert reading time in post Meta"
+msgstr ""
+
+#: includes/admin_options.php:167
+msgid "Reading Time Settings"
+msgstr ""
+
+#: includes/metaboxes.php:49
+msgid "Disable Reading Time?"
+msgstr ""
+
+#: includes/metaboxes.php:68
+msgid "Custom Reading Time"
+msgstr ""
+
+#: includes/redux/core/enqueue.php:452
+#: includes/redux/inc/extensions/customizer/extension_customizer.php:689
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: includes/redux/core/enqueue.php:460
+#: includes/redux/inc/extensions/customizer/extension_customizer.php:690
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: includes/redux/core/enqueue.php:468
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: includes/redux/core/enqueue.php:476
+#: includes/redux/inc/extensions/customizer/extension_customizer.php:691
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/redux/core/enqueue.php:483
+msgid "Please Wait"
+msgstr ""
+
+#: includes/redux/core/enqueue.php:494
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: includes/redux/core/enqueue.php:495
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: includes/redux/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: includes/redux/core/panel.php:142
+msgid "Settings Imported!"
+msgstr ""
+
+#: includes/redux/core/panel.php:157
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: includes/redux/core/panel.php:171
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: includes/redux/core/panel.php:185
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/redux/core/panel.php:205
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: includes/redux/core/panel.php:213
+msgid "error(s) were found!"
+msgstr ""
+
+#: includes/redux/core/panel.php:221
+msgid "warning(s) were found!"
+msgstr ""
+
+#: includes/redux/core/panel.php:313
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: includes/redux/framework.php:220
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: includes/redux/framework.php:220
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/redux/framework.php:224 includes/redux/framework.php:228
+msgid "Options"
+msgstr ""
+
+#: includes/redux/framework.php:1744
+msgid "Enable"
+msgstr ""
+
+#: includes/redux/framework.php:1749
+msgid "Disable"
+msgstr ""
+
+#: includes/redux/framework.php:1755
+msgid "moving the mouse over"
+msgstr ""
+
+#: includes/redux/framework.php:1757
+msgid "clicking"
+msgstr ""
+
+#: includes/redux/framework.php:1761
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: includes/redux/framework.php:1766
+msgid "Hints"
+msgstr ""
+
+#: includes/redux/framework.php:1893
+msgid "Default"
+msgstr ""
+
+#: includes/redux/framework.php:2773
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: includes/redux/framework.php:2782
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: includes/redux/framework.php:2862
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: includes/redux/inc/class.redux_admin_notices.php:111
+msgid "Dismiss"
+msgstr ""
+
+#: includes/redux/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: includes/redux/inc/class.redux_cdn.php:76
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: includes/redux/inc/class.redux_cdn.php:76
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: includes/redux/inc/class.redux_cdn.php:112
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: includes/redux/inc/class.redux_filesystem.php:50
+#: includes/redux/inc/class.redux_filesystem.php:289
+msgid "File Permission Issues"
+msgstr ""
+
+#: includes/redux/inc/class.redux_filesystem.php:50
+#: includes/redux/inc/class.redux_filesystem.php:289
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> "
+"has the proper read-write permissions, or modify your wp-config.php file to "
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: includes/redux/inc/class.redux_helpers.php:619
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: includes/redux/inc/extensions/customizer/extension_customizer.php:724
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: includes/redux/inc/extensions/customizer/extension_customizer.php:725
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: includes/redux/inc/extensions/customizer/extension_customizer.php:726
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/redux/inc/extensions/customizer/inc/customizer_panel.php:89
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#: includes/redux/inc/extensions/customizer/inc/customizer_panel.php:114
+#: includes/redux/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: includes/redux/inc/extensions/customizer/inc/customizer_panel.php:138
+#: includes/redux/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: includes/redux/inc/extensions/customizer/inc/customizer_panel.php:146
+msgid "Help"
+msgstr ""
+
+#: includes/redux/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: includes/redux/inc/extensions/customizer/inc/customizer_section.php:122
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:91
+msgid "Import Options"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:95
+msgid "Import from File"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:98
+msgid "Import from URL"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid "Import"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:120
+msgid "Export Options"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:132
+msgid "Copy Data"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:133
+msgid "Download Data File"
+msgstr ""
+
+#: includes/redux/inc/extensions/import_export/import_export/field_import_export.php:134
+msgid "Copy Export URL"
+msgstr ""
+
+#: includes/redux/inc/extensions/options_object/extension_options_object.php:82
+#: includes/redux/inc/extensions/options_object/options_object/field_options_object.php:104
+msgid "Options Object"
+msgstr ""
+
+#: includes/redux/inc/extensions/options_object/options_object/field_options_object.php:107
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:124
+#: includes/redux/inc/fields/color/field_color.php:73
+msgid "Transparent"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:277
+#: includes/redux/inc/fields/media/field_media.php:153
+msgid "No media selected"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:314
+#: includes/redux/inc/fields/media/field_media.php:206
+msgid "Upload"
+msgstr ""
+
+#: includes/redux/inc/fields/background/field_background.php:321
+#: includes/redux/inc/fields/media/field_media.php:213
+#: includes/redux/inc/fields/multi_text/field_multi_text.php:72
+#: includes/redux/inc/fields/multi_text/field_multi_text.php:79
+#: includes/redux/inc/fields/multi_text/field_multi_text.php:89
+msgid "Remove"
+msgstr ""
+
+#: includes/redux/inc/fields/multi_text/field_multi_text.php:62
+msgid "Add More"
+msgstr ""
+
+#: includes/redux/inc/fields/select/field_select.php:83
+#: includes/redux/inc/fields/select_image/field_select_image.php:54
+msgid "Select an item"
+msgstr ""
+
+#: includes/redux/inc/fields/select/field_select.php:134
+#: includes/redux/inc/fields/select_image/field_select_image.php:134
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/redux/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: includes/redux/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:258
+#: includes/redux/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:273
+#: includes/redux/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:342
+#: includes/redux/inc/fields/typography/field_typography.php:343
+#: includes/redux/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:365
+#: includes/redux/inc/fields/typography/field_typography.php:366
+#: includes/redux/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:388
+#: includes/redux/inc/fields/typography/field_typography.php:389
+#: includes/redux/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:408
+#: includes/redux/inc/fields/typography/field_typography.php:409
+#: includes/redux/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:432
+#: includes/redux/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:441
+#: includes/redux/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:450
+#: includes/redux/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:459
+#: includes/redux/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: includes/redux/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
+"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
+"document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/embedded.php:24
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
+"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
+"submission because of Redux."
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: includes/redux/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: includes/redux/inc/validation/color/validation_color.php:15
+#: includes/redux/inc/validation/color_rgba/validation_color_rgba.php:14
+#: includes/redux/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: includes/redux/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: includes/redux/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: includes/redux/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: includes/redux/inc/validation/email/validation_email.php:16
+#: includes/redux/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: includes/redux/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: includes/redux/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: includes/redux/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: includes/redux/inc/validation/numeric/validation_numeric.php:16
+#: includes/redux/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: includes/redux/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: includes/redux/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: includes/redux/templates/panel/footer.tpl.php:57
+#: includes/redux/templates/panel/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: includes/redux/templates/panel/footer.tpl.php:61
+#: includes/redux/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr ""
+
+#: includes/redux/templates/panel/footer.tpl.php:62
+#: includes/redux/templates/panel/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr ""
+
+#: includes/redux/templates/panel/footer.tpl.php:67
+#: includes/redux/templates/panel/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr ""
+
+#: includes/redux/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: kadence-reading-time.php:80 kadence-reading-time.php:385
+msgid "Reading Time:"
+msgstr ""
+
+#: kadence-reading-time.php:85 kadence-reading-time.php:392
+msgid "minutes"
+msgstr ""
+
+#: kadence-reading-time.php:90 kadence-reading-time.php:399
+msgid "minute"
+msgstr ""
+
+#: kadence-reading-time.php:330
+msgid "< 1"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:213
+#, php-format
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:215
+#, php-format
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:217
+#, php-format
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""

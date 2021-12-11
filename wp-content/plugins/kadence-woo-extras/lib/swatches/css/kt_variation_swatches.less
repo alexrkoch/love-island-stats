@@ -1,0 +1,360 @@
+.kt-radio-variation-container select {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    border: 0;
+    position: absolute;
+}
+.woobt-products .woobt-product .variation .select .kt-radio-variation-container select {
+    visibility: visible;
+    position: static;
+    height: auto;
+    opacity: 1;
+    padding: inherit;
+    border: inherit;
+    line-height: inherit;
+    margin: inherit;
+}
+.kad_radio_variations .kt_disabled {
+    opacity: 0.3;
+}
+.woobt-products .woobt-product .variation .select .kt-radio-variation-container .kad_radio_variations {
+    display: none;
+}
+.variations .kad_radio_variations.kt-image-color-sw label span.kt_color_sw_span img::selection {
+	background:transparent;
+}
+.variations tr:first-child .kad_radio_variations label.kt_disabled_all {
+    pointer-events: none;
+    color: rgba(0,0,0,.3);
+    border-color: rgba(0,0,0,.03);
+}
+.variations .kad_radio_variations.kt-image-color-sw label span.kt_color_sw_span  {
+    display: block;
+    margin: 0 auto;
+}
+.woocommerce .product .variations .kt-radio-variation-container fieldset.kad_radio_variations label {
+	font-weight: normal;
+}
+.variations {
+	.kt-radio-variation-container fieldset {
+		padding: 0;
+		border: 0;
+		margin: 0;
+	}
+	.kt-radio-variation-container fieldset.kad_radio_variations {
+		margin-bottom: 5px;
+		margin-top: -5px;
+		margin-left: -5px;
+	}
+	.kad_radio_variations {
+		margin-bottom: 5px;
+		margin-top: -5px;
+		margin-left: -5px;
+		input[type=radio] {
+			position: absolute !important;
+			height: 1px;
+			width: 1px; 
+			overflow: hidden;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		label {
+			float: left;
+			padding: 4px 10px;
+			line-height: 1.5;
+			margin: 5px 5px 5px;
+			border: 3px solid var( --global-palette7, #eeeeee );
+			transition: all .3s ease;
+			font-weight: normal;
+		}
+		label:hover, input[type=radio]:focus + label {
+			border-color:var( --global-palette6, #777777 );
+		}
+		label.selectedValue, input[type=radio]:checked + label {
+			border-color: var( --global-palette4, #444444 );
+			background: var( --global-palette4, #444444 );
+			color:var( --global-palette9, #ffffff );
+		}
+	}
+	.kad_radio_variations.kt-image-color-sw {
+		label {
+			padding: 2px;
+			border-width: 2px;
+			background: transparent;
+			span.label_text {
+				padding: 2px 5px;
+				text-align: center;
+				display: block;
+				font-size: 80%;
+			}
+		}
+		label:hover, input[type=radio]:focus + label {
+			border-color:var( --global-palette6, #777777 );
+		}
+		label.selectedValue, input[type=radio]:checked + label {
+			background: transparent;
+			color:var( --global-palette4, #444444 );
+		}
+	}
+}
+.rtl .variations {
+	.kad_radio_variations label {
+	    float: right;
+	}
+}
+// div.product .variations {
+// 	// CSS tooltips
+
+// 	/**
+// 	* Tooltip Styles
+// 	*/
+// 	/* Base styles for the element that has a tooltip */
+// 	[data-tooltip]{
+// 	  position: relative;
+// 	  cursor: pointer;
+// 	   z-index: 1;
+// 	}
+	
+// 	/* Base styles for the entire tooltip */
+// 	[data-tooltip]:before,
+// 	[data-tooltip]:after {
+// 		position: absolute;
+// 		visibility: hidden;
+// 		opacity: 0;
+// 		transition:         
+// 			opacity 0.2s ease-in-out,
+// 			visibility 0.2s ease-in-out,
+// 			transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+// 		transform:         translate3d(0, 0, 0);
+// 		pointer-events: none;
+// 	}
+	
+// 	/* Show the entire tooltip on hover and focus */
+// 	[data-tooltip]:hover:before,
+// 	[data-tooltip]:hover:after,
+// 	[data-tooltip]:focus:before,
+// 	[data-tooltip]:focus:after {
+// 	  visibility: visible;
+// 	  opacity: 1;
+// 	}
+	
+// 	/* Base styles for the tooltip's directional arrow */
+// 	[data-tooltip]:before {
+// 	  z-index: 1001;
+// 	  border: 6px solid transparent;
+// 	  background: transparent;
+// 	  content: "";
+// 	}
+	
+// 	/* Base styles for the tooltip's content area */
+// 	[data-tooltip]:after {
+// 	  z-index: 1000;
+// 	  padding: 8px;
+// 	  width: 140px;
+// 	  background-color: var( --global-palette3, #000000 );
+// 	  color: var( --global-palette9, #ffffff );
+// 	  content: attr(data-tooltip);
+// 	  font-size: 14px;
+// 	  line-height: 1.2;
+// 	}
+	
+// 	/* Directions */
+	
+// 	/* Top (default) */
+// 	[data-tooltip]:before,
+// 	[data-tooltip]:after,
+// 	[data-placement="top"]:before,
+// 	[data-placement="top"]:after {
+// 	  bottom: 100%;
+// 	  left: 50%;
+// 	}
+	
+// 	[data-tooltip]:before,
+// 	[data-placement="top"]:before {
+// 	  margin-left: -6px;
+// 	  margin-bottom: -12px;
+// 	  border-top-color: var( --global-palette3, #000000 );
+// 	}
+	
+// 	/* Horizontally align top/bottom tooltips */
+// 	[data-tooltip]:after,
+// 	[data-placement="top"]:after {
+// 	  margin-left: -70px;
+// 	}
+	
+// 	[data-tooltip]:hover:before,
+// 	[data-tooltip]:hover:after,
+// 	[data-tooltip]:focus:before,
+// 	[data-tooltip]:focus:after,
+// 	[data-placement="top"]:hover:before,
+// 	[data-placement="top"]:hover:after,
+// 	[data-placement="top"]:focus:before,
+// 	[data-placement="top"]:focus:after {
+// 	  transform:         translateY(-12px); 
+// 	}
+	
+	
+// 	/* Bottom */
+// 	[data-placement="bottom"]:before,
+// 	[data-placement="bottom"]:after {
+// 	  top: 100%;
+// 	  bottom: auto;
+// 	  left: 50%;
+// 	}
+	
+// 	[data-placement="bottom"]:before {
+// 	  margin-top: -12px;
+// 	  margin-bottom: 0;
+// 	  border-top-color: transparent;
+// 	  border-bottom-color: var( --global-palette3, #000000 );
+// 	}
+	
+// 	[data-placement="bottom"]:hover:before,
+// 	[data-placement="bottom"]:hover:after,
+// 	[data-placement="bottom"]:focus:before,
+// 	[data-placement="bottom"]:focus:after {
+// 	  transform:         translateY(12px); 
+// 	}
+// }
+div.product .variations {
+	.tooltip {
+	  position: absolute;
+	  z-index: 1070;
+	  display: block;
+	  font-style: normal;
+	  font-weight: normal;
+	  letter-spacing: normal;
+	  line-break: auto;
+	  line-height: 1.42857143;
+	  text-align: left;
+	  text-align: start;
+	  text-decoration: none;
+	  text-shadow: none;
+	  text-transform: none;
+	  white-space: normal;
+	  word-break: normal;
+	  word-spacing: normal;
+	  word-wrap: normal;
+	  font-size: 12px;
+	  opacity: 0;
+	  filter: alpha(opacity=0);
+	}
+	.tooltip.in {
+	  opacity: 0.9;
+	  filter: alpha(opacity=90);
+	}
+	.tooltip.top {
+	  margin-top: -3px;
+	  padding: 5px 0;
+	}
+	.tooltip.right {
+	  margin-left: 3px;
+	  padding: 0 5px;
+	}
+	.tooltip.bottom {
+	  margin-top: 3px;
+	  padding: 5px 0;
+	}
+	.tooltip.left {
+	  margin-left: -3px;
+	  padding: 0 5px;
+	}
+	.tooltip-inner {
+	  max-width: 200px;
+	  padding: 3px 8px;
+	  color: var( --global-palette9, #ffffff );
+	  text-align: center;
+	  background-color: var( --global-palette3, #000000 );
+	  border-radius: 4px;
+	}
+	.tooltip-arrow {
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  border-color: transparent;
+	  border-style: solid;
+	}
+	.tooltip.top .tooltip-arrow {
+	  bottom: 0;
+	  left: 50%;
+	  margin-left: -5px;
+	  border-width: 5px 5px 0;
+	  border-top-color: var( --global-palette3, #000000 );
+	}
+	.tooltip.top-left .tooltip-arrow {
+	  bottom: 0;
+	  right: 5px;
+	  margin-bottom: -5px;
+	  border-width: 5px 5px 0;
+	  border-top-color: var( --global-palette3, #000000 );
+	}
+	.tooltip.top-right .tooltip-arrow {
+	  bottom: 0;
+	  left: 5px;
+	  margin-bottom: -5px;
+	  border-width: 5px 5px 0;
+	  border-top-color: var( --global-palette3, #000000 );
+	}
+	.tooltip.right .tooltip-arrow {
+	  top: 50%;
+	  left: 0;
+	  margin-top: -5px;
+	  border-width: 5px 5px 5px 0;
+	  border-right-color: var( --global-palette3, #000000 );
+	}
+	.tooltip.left .tooltip-arrow {
+	  top: 50%;
+	  right: 0;
+	  margin-top: -5px;
+	  border-width: 5px 0 5px 5px;
+	  border-left-color: var( --global-palette3, #000000 );
+	}
+	.tooltip.bottom .tooltip-arrow {
+	  top: 0;
+	  left: 50%;
+	  margin-left: -5px;
+	  border-width: 0 5px 5px;
+	  border-bottom-color: var( --global-palette3, #000000 );
+	}
+	.tooltip.bottom-left .tooltip-arrow {
+	  top: 0;
+	  right: 5px;
+	  margin-top: -5px;
+	  border-width: 0 5px 5px;
+	  border-bottom-color: var( --global-palette3, #000000 );
+	}
+	.tooltip.bottom-right .tooltip-arrow {
+	  top: 0;
+	  left: 5px;
+	  margin-top: -5px;
+	  border-width: 0 5px 5px;
+	  border-bottom-color: var( --global-palette3, #000000 );
+	}
+}
+.variations .kad_radio_variations.kt-image-color-sw label span.kt_color_sw_span img {
+    position: relative;
+    z-index: -1;
+}
+.variations .kad_radio_variations.kt-image-color-sw label {
+    position: relative;
+    z-index: 1;
+	zoom:1;
+}
+.kadence-sticky-add-to-cart-action-wrap .variations .kt-radio-variation-container {
+    margin: 0;
+    display: inline-flex;
+    min-height: 60px;
+    align-items: center;
+}
+.kadence-sticky-add-to-cart-action-wrap .variations .kad_radio_variations label {
+    margin: 4px 5px 2px;
+}
+.kadence-sticky-add-to-cart-action-wrap a.reset_variations {
+    display: inline;
+    float: right;
+    line-height: 60px;
+}

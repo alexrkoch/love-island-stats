@@ -1,0 +1,205 @@
+/*body {
+	font-family: 'lucida grande', verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	margin: 10px;
+	padding: 5px;
+}*/
+
+#TB_window #TB_title { background-color: #00a0f0; }
+
+ul.ps_images {
+	list-style: none;
+	overflow: hidden;
+}
+
+ul.ps_images li,.embed .thumb_big {
+	float: left;
+	width: 145px;
+	background-color: #FFF;
+	margin: 3px;
+	text-align: center;
+	overflow:hidden;
+    border: 0px solid transparent;
+    -webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+div.border {
+    padding: 0 3px;
+    border: 0px solid #AAA;
+}
+
+ul.ps_images li:hover {
+    border: 0px solid #D7D7D7;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+
+ul.ps_images li .thumb {
+    padding: 3px;
+    background: transparent;
+	height: 100px;
+}
+ul.ps_images li .thumb img {
+    outline: none;
+    max-width: 100%;
+    height:auto;
+    max-height: 96px;
+}
+ul.ps-img-thumbs li .thumb {
+    background: #DDD;
+}
+
+ul.ps_images li a {
+    text-decoration: none;
+    display: block;
+    outline: none;
+      -webkit-box-shadow: none;
+          box-shadow: none;
+}
+ul.ps_images li a:focus {
+    outline:none;
+      -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+button.sort-asc {
+    cursor: pointer;
+    padding-top: 7px;
+    margin-left: 3px;
+    background: none;
+    background-image: url('<?php bloginfo('wpurl');?>/wp-content/plugins/kadence-galleries/photoshelter/img/icons2.png');
+    background-position: -350px 0;
+    width: 16px;
+    height: 24px;
+    border: none;
+}
+
+button.sort-desc {
+    cursor: pointer;
+    padding-top: 7px;
+    margin-left: 3px;
+    background: none;
+    background-image: url('<?php bloginfo('wpurl');?>/wp-content/plugins/kadence-galleries/photoshelter/img/icons2.png');
+    background-position: -300px 0;
+    width: 16px;
+    height: 24px;
+    border: none;
+}
+
+div.gal-name {
+    clear: both;
+    color: black;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none !important;
+    overflow: hidden;
+    height: 32px;
+}
+div.gal-name a {
+    color:black;
+}
+div.gal-button-left {
+    margin-left: 3px;
+    float: left;
+    height: 20px;
+}
+
+div.gal-button-right {
+    margin-right: 3px;
+    float: right;
+    height: 20px;
+}
+
+div.caption {
+    text-decoration: none !important;
+    color: black;
+    overflow: hidden;
+    height: 30px;
+}
+
+div#searchbox {
+	padding: 5px;
+	background-color: #eee;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+td.cover {
+	width: 80px;
+}
+td.gallery_name {
+	text-align: left;
+}
+
+.embed {
+	overflow: hidden;
+	padding: 1em;
+}
+
+.e {
+	margin-left: 100px;
+}
+
+.pagination {
+	margin-top: 10px;
+}
+
+.pagination ul li {
+	float: left;
+	width: 25px;
+	padding: 4px;
+	text-align: center;
+}
+
+.pagination ul li.prev {
+	float: left;
+    padding: 0px;
+    margin-right: -6px;
+    margin-top: 1px;
+}
+
+.pagination ul li.prev div.prev-arrow {
+    height: 70px;
+    background: url('<?php bloginfo('wpurl');?>/wp-content/plugins/kadence-galleries/photoshelter/img/icons2.png');
+    background-position: -300px -600px;
+}
+
+.pagination ul li.next {
+	float: left;
+    padding: 0px;
+    margin-right: -6px;
+    margin-top: -1px;
+}
+
+.pagination ul li.next div.next-arrow {
+    height: 70px;
+    background: url('<?php bloginfo('wpurl');?>/wp-content/plugins/kadence-galleries/photoshelter/img/icons2.png');
+    background-position: -350px -600px;
+}
+
+.pagination ul li.current {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+.embed .thumb_big {
+	height:220px;
+	width:220px;
+	float:left;
+	margin-right: 40px;
+}
+
+.ps-warning {
+	padding: 5px;
+	background-color: #FFC0CB;
+	border: 1px solid #DC143C;
+}
+
+.ps-success {
+	padding: 5px;
+	background-color: #90EE90;
+	border: 1px solid #008000;
+}

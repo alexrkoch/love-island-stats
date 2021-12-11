@@ -1,0 +1,258 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kadence Recaptcha\n"
+"POT-Creation-Date: 2021-02-25 00:29-0700\n"
+"PO-Revision-Date: 2015-05-08 13:15-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr_e;esc_attr__;esc_html__;"
+"esc_html_e;esc_attr_x;_x;esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/redux\n"
+"X-Poedit-SearchPathExcluded-1: admin/options_assets\n"
+
+#: admin/admin_options.php:28
+msgid "Recaptcha Settings"
+msgstr ""
+
+#: admin/admin_options.php:29
+msgid "Kadence Recaptcha Settings"
+msgstr ""
+
+#: admin/admin_options.php:50
+msgid ""
+"Thank you for using Kadence Recaptcha by <a href=\"https://kadencewp.com/\" "
+"target=\"_blank\">Kadence WP</a>."
+msgstr ""
+
+#: admin/admin_options.php:112
+msgid "Google reCaptcha API Keys"
+msgstr ""
+
+#: admin/admin_options.php:118
+msgid "reCaptcha version"
+msgstr ""
+
+#: admin/admin_options.php:120
+msgid "Version 2"
+msgstr ""
+
+#: admin/admin_options.php:121
+msgid "Version 3"
+msgstr ""
+
+#: admin/admin_options.php:129
+msgid "Google reCaptcha V2 API Keys"
+msgstr ""
+
+#: admin/admin_options.php:135 admin/admin_options.php:155
+msgid "Site Key:"
+msgstr ""
+
+#: admin/admin_options.php:136 admin/admin_options.php:143
+#: admin/admin_options.php:156 admin/admin_options.php:163
+#, php-format
+msgid "Get API keys here: %s"
+msgstr ""
+
+#: admin/admin_options.php:142 admin/admin_options.php:162
+msgid "Secret Key:"
+msgstr ""
+
+#: admin/admin_options.php:149
+msgid "Google reCaptcha V3 API Keys"
+msgstr ""
+
+#: admin/admin_options.php:169
+msgid "reCaptcha form options"
+msgstr ""
+
+#: admin/admin_options.php:174
+msgid "Enable for Post and Page Comments"
+msgstr ""
+
+#: admin/admin_options.php:180
+msgid "Enable for Login"
+msgstr ""
+
+#: admin/admin_options.php:186
+msgid "Enable for Lost Password Form"
+msgstr ""
+
+#: admin/admin_options.php:192
+msgid "Enable for Registration"
+msgstr ""
+
+#: admin/admin_options.php:198
+msgid "Enable for Woocommerce Checkout"
+msgstr ""
+
+#: admin/admin_options.php:204
+msgid "Enable for Woocommerce Reviews"
+msgstr ""
+
+#: admin/admin_options.php:210
+msgid "Google reCaptcha Style"
+msgstr ""
+
+#: admin/admin_options.php:216
+msgid "Choose a theme"
+msgstr ""
+
+#: admin/admin_options.php:218
+msgid "Light"
+msgstr ""
+
+#: admin/admin_options.php:219
+msgid "Dark"
+msgstr ""
+
+#: admin/admin_options.php:228
+msgid "Choose a size"
+msgstr ""
+
+#: admin/admin_options.php:230
+msgid "Normal"
+msgstr ""
+
+#: admin/admin_options.php:231
+msgid "Compact"
+msgstr ""
+
+#: admin/admin_options.php:240
+msgid "Choose a type"
+msgstr ""
+
+#: admin/admin_options.php:242
+msgid "Image"
+msgstr ""
+
+#: admin/admin_options.php:243
+msgid "Audio"
+msgstr ""
+
+#: admin/admin_options.php:252
+msgid "Choose a alignment"
+msgstr ""
+
+#: admin/admin_options.php:254
+msgid "Left"
+msgstr ""
+
+#: admin/admin_options.php:255
+msgid "Center"
+msgstr ""
+
+#: admin/admin_options.php:256
+msgid "Right"
+msgstr ""
+
+#: admin/admin_options.php:265
+msgid "Privacy Consent"
+msgstr ""
+
+#: admin/admin_options.php:271
+msgid "Enable privacy consent required before reCaptcha scripts are loaded"
+msgstr ""
+
+#: admin/admin_options.php:278
+msgid "Consent Label"
+msgstr ""
+
+#: admin/admin_options.php:287
+msgid "Consent Button Text"
+msgstr ""
+
+#: admin/admin_options.php:296
+msgid "Consent Cookie Name"
+msgstr ""
+
+#: admin/admin_options.php:297
+msgid ""
+"You can use a custom cookie name or one that matches another consent plugin."
+msgstr ""
+
+#: admin/admin_options.php:313
+msgid "Theme Specific Enable Options"
+msgstr ""
+
+#: admin/admin_options.php:319
+msgid "Enable for theme contact form"
+msgstr ""
+
+#: admin/admin_options.php:325
+msgid "Enable for testimonial form"
+msgstr ""
+
+#: inc/recaptcha.php:145 inc/recaptcha.php:165 inc/recaptcha.php:195
+#: inc/recaptcha.php:311
+msgid "<strong>ERROR</strong>: Invalid Captcha."
+msgstr ""
+
+#: inc/recaptcha.php:609
+msgid "I Consent"
+msgstr ""
+
+#: inc/recaptcha.php:753
+#, php-format
+msgid "To use this form you must consent to our %s."
+msgstr ""
+
+#: inc/recaptcha.php:755
+msgid "To use this form you must consent to our privacy policy."
+msgstr ""
+
+#: inc/recaptcha.php:772
+msgid "*Cookies must be enabled in your browser"
+msgstr ""
+
+#: inc/recaptcha.php:803
+msgid "Sorry, it seems you're a robot."
+msgstr ""
+
+#: inc/recaptcha.php:813
+msgid ""
+"Sorry, to post a comment or login you must consent to our privacy policy and "
+"have cookies enabled."
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:213
+#, php-format
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:215
+#, php-format
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:217
+#, php-format
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""

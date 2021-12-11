@@ -1,0 +1,1280 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kadence-woo-extras\n"
+"POT-Creation-Date: 2020-06-25 14:42-0600\n"
+"PO-Revision-Date: 2015-05-08 13:15-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/options_assets/extensions/"
+"vendor_support\n"
+"X-Poedit-SearchPathExcluded-1: admin/redux\n"
+
+#: admin/amp_options.php:46 kadence-amp.php:493
+#: vendor/amp/includes/options/class-amp-options-menu.php:44
+msgid "AMP Settings"
+msgstr ""
+
+#: admin/amp_options.php:47
+msgid "Kadence AMP Settings"
+msgstr ""
+
+#: admin/amp_options.php:66
+msgid ""
+"Thank you for using the Kadence AMP by <a href=\"http://kadencethemes.com/\" "
+"target=\"_blank\">Kadence Themes</a>."
+msgstr ""
+
+#: admin/amp_options.php:124
+msgid "AMP General Settings"
+msgstr ""
+
+#: admin/amp_options.php:131
+msgid "Enable AMP for the following post types"
+msgstr ""
+
+#: admin/amp_options.php:138
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: admin/amp_options.php:139
+msgid "Example UA-XXXX-Y"
+msgstr ""
+
+#: admin/amp_options.php:150
+msgid "AMP Header"
+msgstr ""
+
+#: admin/amp_options.php:156
+msgid "Header Background Color"
+msgstr ""
+
+#: admin/amp_options.php:164
+msgid "AMP Logo"
+msgstr ""
+
+#: admin/amp_options.php:169
+msgid "Logo Type"
+msgstr ""
+
+#: admin/amp_options.php:172 admin/amp_options.php:224
+msgid "Text"
+msgstr ""
+
+#: admin/amp_options.php:172
+msgid "Image"
+msgstr ""
+
+#: admin/amp_options.php:172
+msgid "Image and text"
+msgstr ""
+
+#: admin/amp_options.php:178
+msgid "Logo Image"
+msgstr ""
+
+#: admin/amp_options.php:179
+msgid ""
+"The image will be resized to have a max height of 32px but will not be "
+"cropped"
+msgstr ""
+
+#: admin/amp_options.php:185
+msgid "Logo Text"
+msgstr ""
+
+#: admin/amp_options.php:192
+msgid "Logo Text Font"
+msgstr ""
+
+#: admin/amp_options.php:204
+msgid "Choose size and style your site title"
+msgstr ""
+
+#: admin/amp_options.php:216
+msgid "AMP Menu Button"
+msgstr ""
+
+#: admin/amp_options.php:221
+msgid "Menu Button Type"
+msgstr ""
+
+#: admin/amp_options.php:224
+msgid "Icon"
+msgstr ""
+
+#: admin/amp_options.php:229
+msgid "Menu Button Icon Color"
+msgstr ""
+
+#: admin/amp_options.php:238
+msgid "Menu Button Text"
+msgstr ""
+
+#: admin/amp_options.php:239
+msgid "Menu"
+msgstr ""
+
+#: admin/amp_options.php:245
+msgid "Menu Button Text Font"
+msgstr ""
+
+#: admin/amp_options.php:257
+msgid "Choose style your Menu Button text"
+msgstr ""
+
+#: admin/amp_options.php:269 admin/amp_options.php:270
+msgid ""
+"AMP Menu - Make sure to assign a menu to your AMP navigation in your "
+"apperance > menus page"
+msgstr ""
+
+#: admin/amp_options.php:275
+msgid "Menu Popout Background Color"
+msgstr ""
+
+#: admin/amp_options.php:283
+msgid "Menu Popout Font"
+msgstr ""
+
+#: admin/amp_options.php:295
+msgid "Choose style your popout menu"
+msgstr ""
+
+#: admin/amp_options.php:311
+msgid "AMP Body"
+msgstr ""
+
+#: admin/amp_options.php:317
+msgid "Highlight Color"
+msgstr ""
+
+#: admin/amp_options.php:318
+msgid "Choose the color for links and buttons"
+msgstr ""
+
+#: admin/amp_options.php:326
+msgid "Body Background Color"
+msgstr ""
+
+#: admin/amp_options.php:334
+msgid "h1, h2, h3, h4, h5, h6 font family"
+msgstr ""
+
+#: admin/amp_options.php:346 admin/amp_options.php:369
+msgid "Choose style your body font"
+msgstr ""
+
+#: admin/amp_options.php:357
+msgid "Body font"
+msgstr ""
+
+#: admin/amp_options.php:380
+msgid "Muted text color"
+msgstr ""
+
+#: admin/amp_options.php:381
+msgid "Font color for meta content like category, tags etc."
+msgstr ""
+
+#: admin/amp_options.php:394
+msgid "AMP Footer"
+msgstr ""
+
+#: admin/amp_options.php:400
+msgid "Footer Background Color"
+msgstr ""
+
+#: admin/amp_options.php:408
+msgid "Footer font"
+msgstr ""
+
+#: admin/amp_options.php:420
+msgid "Choose color and size for the footer font"
+msgstr ""
+
+#: admin/amp_options.php:431
+msgid "Footer Content"
+msgstr ""
+
+#: admin/amp_options.php:432
+msgid ""
+"Write your own copyright text here. You can use the following shortcodes in "
+"your footer text: [copyright] [site-name] [the-year]"
+msgstr ""
+
+#: admin/amp_options.php:438
+msgid "Show back to top link"
+msgstr ""
+
+#: admin/amp_options.php:444
+msgid "Back to top Text"
+msgstr ""
+
+#: admin/amp_options.php:445 includes/template-functions.php:81
+msgid "Back to top"
+msgstr ""
+
+#: admin/amp_options.php:450
+msgid "Show \"View Original Version\" link"
+msgstr ""
+
+#: admin/amp_options.php:456
+msgid "View Original Version Text"
+msgstr ""
+
+#: admin/amp_options.php:457 includes/template-functions.php:92
+#: includes/template-functions.php:475
+msgid "View original version"
+msgstr ""
+
+#: admin/amp_options.php:467
+msgid "AMP Single Post"
+msgstr ""
+
+#: admin/amp_options.php:473
+msgid "AMP Post Template"
+msgstr ""
+
+#: admin/amp_options.php:474 admin/amp_options.php:552
+#: admin/amp_options.php:635 admin/amp_options.php:675
+#: admin/amp_options.php:715
+msgid "Check box to enable and sort for output order (Top First)."
+msgstr ""
+
+#: admin/amp_options.php:477 admin/amp_options.php:555
+#: admin/amp_options.php:638 admin/amp_options.php:678
+msgid "Ad Block #1"
+msgstr ""
+
+#: admin/amp_options.php:478 admin/amp_options.php:556
+#: admin/amp_options.php:639 admin/amp_options.php:679
+msgid "Breadcrumbs"
+msgstr ""
+
+#: admin/amp_options.php:479 admin/amp_options.php:557
+#: admin/amp_options.php:640 admin/amp_options.php:680
+msgid "Button to original version"
+msgstr ""
+
+#: admin/amp_options.php:480
+msgid "Post Head Feature"
+msgstr ""
+
+#: admin/amp_options.php:481 admin/amp_options.php:559
+#: admin/amp_options.php:642 admin/amp_options.php:682
+msgid "Title"
+msgstr ""
+
+#: admin/amp_options.php:482
+msgid "Meta Block"
+msgstr ""
+
+#: admin/amp_options.php:483
+msgid "Post Content"
+msgstr ""
+
+#: admin/amp_options.php:484
+#: vendor/amp/includes/widgets/class-amp-widget-categories.php:39
+msgid "Categories"
+msgstr ""
+
+#: admin/amp_options.php:485
+msgid "Tags"
+msgstr ""
+
+#: admin/amp_options.php:486 admin/amp_options.php:565
+#: admin/amp_options.php:644 admin/amp_options.php:684
+msgid "Share Buttons"
+msgstr ""
+
+#: admin/amp_options.php:487
+msgid "Post Comments"
+msgstr ""
+
+#: admin/amp_options.php:488
+msgid "Related Posts"
+msgstr ""
+
+#: admin/amp_options.php:489 admin/amp_options.php:568
+#: admin/amp_options.php:646 admin/amp_options.php:686
+msgid "Ad Block #2"
+msgstr ""
+
+#: admin/amp_options.php:510 admin/amp_options.php:600
+msgid "Meta Block Settings"
+msgstr ""
+
+#: admin/amp_options.php:515
+msgid "Show Publish Date"
+msgstr ""
+
+#: admin/amp_options.php:521
+msgid "Show Author"
+msgstr ""
+
+#: admin/amp_options.php:527
+msgid "Post Schema"
+msgstr ""
+
+#: admin/amp_options.php:532
+msgid "Schema Post Content Type"
+msgstr ""
+
+#: admin/amp_options.php:535
+msgid "BlogPosting"
+msgstr ""
+
+#: admin/amp_options.php:535
+msgid "NewsArticle"
+msgstr ""
+
+#: admin/amp_options.php:545
+msgid "AMP Single Product"
+msgstr ""
+
+#: admin/amp_options.php:551
+msgid "AMP Product Template"
+msgstr ""
+
+#: admin/amp_options.php:558
+msgid "Image Gallery"
+msgstr ""
+
+#: admin/amp_options.php:560
+msgid "Rating"
+msgstr ""
+
+#: admin/amp_options.php:561
+msgid "Price"
+msgstr ""
+
+#: admin/amp_options.php:562
+msgid "Product Short Description"
+msgstr ""
+
+#: admin/amp_options.php:563
+msgid "Add to Cart Block"
+msgstr ""
+
+#: admin/amp_options.php:564
+msgid "Product Meta Block"
+msgstr ""
+
+#: admin/amp_options.php:566
+msgid "Product Tabs"
+msgstr ""
+
+#: admin/amp_options.php:567
+msgid "Related Products"
+msgstr ""
+
+#: admin/amp_options.php:589
+msgid "Add to Cart Block Settings"
+msgstr ""
+
+#: admin/amp_options.php:594
+msgid "Show quantity option"
+msgstr ""
+
+#: admin/amp_options.php:605
+msgid "Show SKU"
+msgstr ""
+
+#: admin/amp_options.php:611
+msgid "Show Categories"
+msgstr ""
+
+#: admin/amp_options.php:617
+msgid "Show Tags"
+msgstr ""
+
+#: admin/amp_options.php:628
+msgid "AMP Single Page"
+msgstr ""
+
+#: admin/amp_options.php:634
+msgid "AMP Page Template"
+msgstr ""
+
+#: admin/amp_options.php:641
+msgid "Page Feature Image"
+msgstr ""
+
+#: admin/amp_options.php:643
+msgid "Page Content"
+msgstr ""
+
+#: admin/amp_options.php:645
+msgid "Page Comments"
+msgstr ""
+
+#: admin/amp_options.php:668
+msgid "AMP Singular"
+msgstr ""
+
+#: admin/amp_options.php:669
+msgid "This applies to all other post types."
+msgstr ""
+
+#: admin/amp_options.php:674
+msgid "AMP Singular Template"
+msgstr ""
+
+#: admin/amp_options.php:681
+msgid "Featured Image"
+msgstr ""
+
+#: admin/amp_options.php:683
+msgid "Content"
+msgstr ""
+
+#: admin/amp_options.php:685
+msgid "Comments"
+msgstr ""
+
+#: admin/amp_options.php:708
+msgid "AMP Social"
+msgstr ""
+
+#: admin/amp_options.php:714
+msgid "AMP Social Share"
+msgstr ""
+
+#: admin/amp_options.php:718
+msgid "Facebook"
+msgstr ""
+
+#: admin/amp_options.php:719
+msgid "Twitter"
+msgstr ""
+
+#: admin/amp_options.php:720
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/amp_options.php:721
+msgid "Pinterest"
+msgstr ""
+
+#: admin/amp_options.php:722
+msgid "Email"
+msgstr ""
+
+#: admin/amp_options.php:740
+msgid "AMP Ad Settings"
+msgstr ""
+
+#: admin/amp_options.php:746
+msgid "Custom Ad #1"
+msgstr ""
+
+#: admin/amp_options.php:747 admin/amp_options.php:754
+msgid "Place Ad code here in accordance with"
+msgstr ""
+
+#: admin/amp_options.php:747 admin/amp_options.php:754
+msgid "Amp Ad"
+msgstr ""
+
+#: admin/amp_options.php:753
+msgid "Custom Ad #2"
+msgstr ""
+
+#: admin/amp_options.php:765
+msgid "AMP Custom CSS"
+msgstr ""
+
+#: admin/amp_options.php:771
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:165
+#: admin/kadence-activation/kadence-plugin-api-manager.php:171
+msgid "The following plugins have not been activated: "
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:165
+#: admin/kadence-activation/kadence-plugin-api-manager.php:171
+msgid "Click here to activate."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:358
+#, php-format
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get certain plugin updates. Please add %s to %s."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:386
+msgid "Kadence Plugin Activation."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:389
+#, php-format
+msgid ""
+"Activating your license allows for plugin updates. If you need your api key "
+"you will find it by logging in to your %s Kadence WP account%s."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:394
+msgid "Activated"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:396
+msgid "Could Not Activate"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:398
+msgid "Deactivated"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:400
+msgid "Could Not Deactivate, Try again."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:413
+msgid "Kadence Membership activated through theme"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:414
+msgid " Status: Active"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:421
+#: admin/kadence-activation/kadence-plugin-api-manager.php:429
+msgid "Activate"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:438
+#: admin/kadence-activation/kadence-plugin-api-manager.php:444
+msgid "Deactivate"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:518
+msgid "API License Activation"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:520
+msgid "API License Key"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:521
+msgid "API License Email"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:526
+msgid "Check box to deactivate API License key"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:656
+msgid "Missing API Key, PLease add. "
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:660
+msgid "Missing API Email, PLease add. "
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:672
+msgid "Plugin activated."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:682
+#: admin/kadence-activation/kadence-plugin-api-manager.php:766
+msgid ""
+"Connection failed to the License Key API server. Make sure your host servers "
+"php version has the curl module installed and enabled."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:740
+msgid "Please check box to deactivate. "
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:760
+#: admin/kadence-activation/kadence-plugin-api-manager.php:809
+msgid "License deactivated."
+msgstr ""
+
+#: includes/breadcrumb-template-functions.php:9
+msgid "Home"
+msgstr ""
+
+#: includes/breadcrumb-template-functions.php:73
+msgid "Search results for"
+msgstr ""
+
+#: includes/breadcrumb-template-functions.php:383
+msgid "Error 404"
+msgstr ""
+
+#: includes/breadcrumb-template-functions.php:388
+msgid "Page"
+msgstr ""
+
+#: includes/class-kadence-amp-http.php:422
+#: vendor/amp/includes/class-amp-http.php:422
+msgid "Your comment has been posted."
+msgstr ""
+
+#: includes/class-kadence-amp-http.php:424
+#: vendor/amp/includes/class-amp-http.php:424
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/class-kadence-amp-template.php:398
+#: includes/class-kadence-amp-template.php:454
+#, php-format
+msgid "One Response "
+msgid_plural "%1$s Responses "
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-kadence-amp-template.php:421
+msgid "Add a review"
+msgstr ""
+
+#: includes/class-kadence-amp-template.php:477
+#: vendor/amp/includes/templates/class-amp-post-template.php:303
+msgid "Leave a Comment"
+msgstr ""
+
+#: includes/product-template-functions.php:222
+msgid "Choose an option"
+msgstr ""
+
+#: includes/product-template-functions.php:330
+msgid "Out of stock"
+msgstr ""
+
+#: includes/product-template-functions.php:363
+msgid "SKU"
+msgstr ""
+
+#: includes/product-template-functions.php:366
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/product-template-functions.php:368
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kadence-amp.php:172
+msgid "AMP Navigation"
+msgstr ""
+
+#: kadence-amp.php:238 vendor/amp/includes/admin/class-amp-customizer.php:87
+#: vendor/amp/includes/admin/functions.php:84
+#: vendor/amp/includes/admin/functions.php:85
+#: vendor/amp/includes/options/class-amp-options-menu.php:35
+msgid "AMP"
+msgstr ""
+
+#: kadence-amp.php:498
+msgid "Disable/Enable AMP version of this post"
+msgstr ""
+
+#: kadence-amp.php:503
+msgid "Enable"
+msgstr ""
+
+#: kadence-amp.php:504
+msgid "Disable"
+msgstr ""
+
+#: kadence-amp.php:508
+msgid "Override AMP Content"
+msgstr ""
+
+#: templates/meta-author.php:4
+msgid "by"
+msgstr ""
+
+#: templates/product-tabs.php:13
+msgid "Description"
+msgstr ""
+
+#: templates/product-tabs.php:19
+msgid "Additional information"
+msgstr ""
+
+#: templates/product-tabs.php:28
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/product-tabs.php:30
+msgid "Reviews"
+msgstr ""
+
+#: templates/product-tabs.php:36
+msgid "There are no reviews yet."
+msgstr ""
+
+#: vendor/amp/includes/admin/class-amp-customizer.php:89
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">The AMP Project</a> is a Google-led "
+"initiative that dramatically improves loading speeds on phones and tablets. "
+"You can use the Customizer to preview changes to your AMP template before "
+"publishing them."
+msgstr ""
+
+#: vendor/amp/includes/admin/class-amp-customizer.php:141
+msgid "AMP is not available for the page currently being previewed."
+msgstr ""
+
+#: vendor/amp/includes/admin/class-amp-customizer.php:142
+msgid "Navigate to an AMP compatible page"
+msgstr ""
+
+#: vendor/amp/includes/admin/class-amp-post-meta-box.php:81
+msgid "AMP status."
+msgstr ""
+
+#: vendor/amp/includes/admin/class-amp-post-meta-box.php:154
+msgid "Preview changes in AMP (opens in new window)"
+msgstr ""
+
+#: vendor/amp/includes/admin/class-amp-post-meta-box.php:184
+msgid "Enabled"
+msgstr ""
+
+#: vendor/amp/includes/admin/class-amp-post-meta-box.php:185
+msgid "Disabled"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:176
+#, php-format
+msgid "Expected AMP theme support to keys (%1$s) but saw (%2$s)"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:497
+#, php-format
+msgid "Supportable template \"%s\" does not have a callable callback."
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:609
+msgid "Singular"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:610
+msgid "Required for the above content types."
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:615
+#: vendor/amp/includes/class-amp-theme-support.php:633
+msgid "Homepage"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:620
+#: vendor/amp/includes/class-amp-theme-support.php:629
+#, php-format
+msgid ""
+"Currently disabled at the <a href=\"%s\" target=\"_blank\">page level</a>."
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:625
+msgid "Blog"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:641
+#: vendor/amp/includes/widgets/class-amp-widget-archives.php:44
+msgid "Archives"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:644
+msgid "Author"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:648
+msgid "Date"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:652
+msgid "Search"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:655
+msgid "Not Found (404)"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:897
+#: vendor/amp/includes/templates/class-amp-content.php:178
+#, php-format
+msgid "Embed Handler (%s) must extend `AMP_Embed_Handler`"
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:1101
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: vendor/amp/includes/class-amp-theme-support.php:1803
+#, php-format
+msgid ""
+"The database has the %s encoding when it needs to be utf-8 to work with AMP."
+msgstr ""
+
+#: vendor/amp/includes/embeds/class-amp-core-block-handler.php:87
+#: vendor/amp/includes/widgets/class-amp-widget-categories.php:60
+msgid "Select Category"
+msgstr ""
+
+#: vendor/amp/includes/embeds/class-amp-gallery-embed.php:133
+#: vendor/amp/includes/sanitizers/class-amp-base-sanitizer.php:579
+msgid "Close"
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-analytics-options-submenu.php:34
+msgid "AMP Analytics Options"
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-analytics-options-submenu.php:35
+msgid "Analytics"
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-manager.php:103
+msgid "Unrecognized post type."
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-manager.php:116
+msgid "Missing vendor type or config."
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-manager.php:123
+msgid "Invalid analytics config JSON."
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-manager.php:139
+msgid "Duplicate analytics entry found."
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-manager.php:181
+#, php-format
+msgid ""
+"\"%s\" could not be activated because support is removed by a plugin or theme"
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-manager.php:185
+#, php-format
+msgid ""
+"\"%s\" could not be deactivated because support is added by a plugin or theme"
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-manager.php:236
+msgid "The analytics entry was successfully saved!"
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-menu.php:34
+msgid "AMP Options"
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-menu.php:45
+msgid "General"
+msgstr ""
+
+#: vendor/amp/includes/options/class-amp-options-menu.php:58
+msgid "Post Type Support"
+msgstr ""
+
+#: vendor/amp/includes/options/views/class-amp-analytics-options-submenu-page.php:26
+#, php-format
+msgid "Analytics: %s"
+msgstr ""
+
+#: vendor/amp/includes/options/views/class-amp-analytics-options-submenu-page.php:28
+msgid "Add new entry:"
+msgstr ""
+
+#: vendor/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:231
+#: vendor/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:246
+#: vendor/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:262
+msgid "expand child menu"
+msgstr ""
+
+#: vendor/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:232
+#: vendor/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:247
+#: vendor/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:263
+msgid "collapse child menu"
+msgstr ""
+
+#: vendor/amp/includes/sanitizers/class-amp-style-sanitizer.php:263
+#, php-format
+msgid ""
+"Skipped stylesheet which does not have recognized CSS file extension (%s)."
+msgstr ""
+
+#: vendor/amp/includes/sanitizers/class-amp-style-sanitizer.php:280
+#, php-format
+msgid "Unable to locate filesystem path for stylesheet %s."
+msgstr ""
+
+#: vendor/amp/includes/sanitizers/class-amp-style-sanitizer.php:309
+#: vendor/amp/includes/sanitizers/class-amp-style-sanitizer.php:366
+msgid "Too much CSS enqueued."
+msgstr ""
+
+#: vendor/amp/includes/sanitizers/class-amp-style-sanitizer.php:418
+msgid "amp-keyframes is not child of body element."
+msgstr ""
+
+#: vendor/amp/includes/sanitizers/class-amp-style-sanitizer.php:422
+msgid "amp-keyframes is too large"
+msgstr ""
+
+#: vendor/amp/includes/sanitizers/class-amp-style-sanitizer.php:429
+msgid "amp-keyframes is not last element in body."
+msgstr ""
+
+#: vendor/amp/includes/sanitizers/class-amp-style-sanitizer.php:470
+msgid "Too much CSS."
+msgstr ""
+
+#: vendor/amp/includes/settings/class-amp-customizer-design-settings.php:113
+msgid "Design"
+msgstr ""
+
+#: vendor/amp/includes/settings/class-amp-customizer-design-settings.php:121
+msgid "Header Text Color"
+msgstr ""
+
+#: vendor/amp/includes/settings/class-amp-customizer-design-settings.php:131
+msgid "Header Background & Link Color"
+msgstr ""
+
+#: vendor/amp/includes/settings/class-amp-customizer-design-settings.php:140
+msgid "Color Scheme"
+msgstr ""
+
+#: vendor/amp/includes/settings/class-amp-customizer-design-settings.php:240
+msgid "Light"
+msgstr ""
+
+#: vendor/amp/includes/settings/class-amp-customizer-design-settings.php:241
+msgid "Dark"
+msgstr ""
+
+#: vendor/amp/includes/templates/class-amp-post-template.php:173
+#, php-format
+msgid "Called for non-existent key (\"%s\")."
+msgstr ""
+
+#: vendor/amp/includes/templates/class-amp-post-template.php:304
+msgid "View Comments"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:264
+#, php-format
+msgid "%s AMP Validation Error"
+msgid_plural "%s AMP Validation Errors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:567
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1460
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1634
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1765
+msgid ""
+"Validate URL on frontend but without invalid elements/attributes removed"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:576
+msgid "Invalid elements:"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:582
+msgid "Invalid attributes:"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1143
+msgid "validation error"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1144
+msgid "No validation errors found"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1145
+msgid "No validation errors found in trash"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1146
+msgid "Search statuses"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1147
+msgid "Validation Status"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1342
+msgid "More details"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1346
+msgid "Warning: The following plugin may be incompatible with AMP:"
+msgid_plural "Warning: The following plugins may be incompatible with AMP: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1533
+msgid "The rechecked URL still has validation errors."
+msgid_plural "The rechecked URLs still have validation errors."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1535
+msgid "The rechecked URL has no validation errors."
+msgid_plural "The rechecked URLs have no validation errors."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1598
+msgid "Validation Errors"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1599
+msgid "Status"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1620
+msgid "M j, Y @ H:i"
+msgstr ""
+
+#: vendor/amp/includes/utils/class-amp-validation-utils.php:1623
+#, php-format
+msgid "Published on: <b>%s</b>"
+msgstr ""
+
+#: vendor/amp/includes/widgets/class-amp-widget-archives.php:67
+msgid "Select Year"
+msgstr ""
+
+#: vendor/amp/includes/widgets/class-amp-widget-archives.php:70
+msgid "Select Month"
+msgstr ""
+
+#: vendor/amp/includes/widgets/class-amp-widget-archives.php:73
+msgid "Select Day"
+msgstr ""
+
+#: vendor/amp/includes/widgets/class-amp-widget-archives.php:76
+msgid "Select Week"
+msgstr ""
+
+#: vendor/amp/includes/widgets/class-amp-widget-archives.php:79
+msgid "Select Post"
+msgstr ""
+
+#: vendor/amp/templates/admin/amp-status.php:47
+msgid "AMP cannot be enabled on password protected posts."
+msgstr ""
+
+#: vendor/amp/templates/admin/amp-status.php:51
+#, php-format
+msgid ""
+"AMP cannot be enabled because this <a href=\"%s\">post type does not support "
+"it</a>."
+msgstr ""
+
+#: vendor/amp/templates/admin/amp-status.php:54
+msgid "A plugin or theme has disabled AMP support."
+msgstr ""
+
+#: vendor/amp/templates/admin/amp-status.php:57
+msgid "Unavailable for an unknown reason."
+msgstr ""
+
+#: vendor/amp/templates/footer.php:21
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: vendor/amp/wpcom/class-amp-polldaddy-embed.php:81
+msgid "View Survey"
+msgstr ""
+
+#: vendor/amp/wpcom/class-amp-polldaddy-embed.php:83
+msgid "View Poll"
+msgstr ""
+
+#: vendor/cmb/includes/CMB2.php:603
+msgid "Click to toggle"
+msgstr ""
+
+#: vendor/cmb/includes/CMB2_Base.php:422
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
+"parameter."
+msgstr ""
+
+#: vendor/cmb/includes/CMB2_Base.php:426
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%2$s\" parameter."
+msgstr ""
+
+#: vendor/cmb/includes/CMB2_Base.php:456
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: vendor/cmb/includes/CMB2_Base.php:458
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: vendor/cmb/includes/CMB2_Options_Hookup.php:139
+msgid "Nothing to update."
+msgstr ""
+
+#: vendor/cmb/includes/CMB2_Options_Hookup.php:143
+msgid "Settings updated."
+msgstr ""
+
+#: vendor/cmb/includes/CMB2_Types.php:226
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: vendor/cmb/includes/CMB2_hookup.php:466
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr ""
+
+#: vendor/cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr ""
+
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:35
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:47
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:59
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:71
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:83
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:95
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:107
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:119
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:131
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:143
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:155
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr ""
+
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: vendor/cmb/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""

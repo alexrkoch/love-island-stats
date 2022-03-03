@@ -4,7 +4,9 @@
 This is a simple fit-for-purpose tool for live data collection while watching the hit reality show Love Island.<br>
 Ever since becoming a Love Island fan a few years ago, I've wanted to do a data project similar to what @Bachelordata does for the Bachelor Franchise.
 Ultimately my attempts have failed because collecting data on the show ruins my viewing experience, which I cherish so much.
-This time around, I decided to get some web development skills out of it, while making data collection more pleasant.
+This time around, I decided to get some web development skills out of it, while making data collection more pleasant.<br>
+
+**A note on Gender in this project:** You'll notice gender is represented as binary in this application (boy, girl). This merely represents the structure of the show Love Island, and not my personal ideology about gender. I hope that soon popular media will catch up with the fact that gender is a construct. There are certainly non-binary folks that would love to be on Love Island too... *eh hem, producers...*
 
 ## Technology Used
 - [Bootstrap 4 Starter WordPress Theme](https://afterimagedesigns.com/wordpress-bootstrap-starter-theme/)
@@ -37,9 +39,9 @@ In Love Island, contestants (Islanders) can be dumped from the island, and new I
 4. Click "Edit Islanders" 
 5. If successful, you should see "✅ Alex + Enter ✅" at the top of the page (With whatever criteria you entered).
 
-![Action Entry Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-islander-demo.gif)
+![Edit Islanders Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-islander-demo.gif)
 
 ### Where the Data Goes on the Backend
 The database is a mySQL database, the standard for WordPress sites. I've added tables for the islanders, as well as actions. See the gif below to see how the above examples show up in the database.
 
-![Action Entry Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-database-demo.gif)
+![Database Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-database-demo.gif)

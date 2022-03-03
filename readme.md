@@ -13,7 +13,7 @@ This time around, I decided to get some web development skills out of it, while 
 - Page templates for data collection were developed with PHP and Bootstrap. They can be found here:
     - wp-content > themes > \_wp-bootstrap-starter > love-island-forms     
 - The page templates execute SQL commands to read and write from the mySQL database.
-- Hosted on a Bluehost.
+- Hosted on Bluehost.
 
 ## Usage
 ### Entering Actions 

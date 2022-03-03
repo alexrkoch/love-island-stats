@@ -14,7 +14,7 @@ This time around, I decided to get some web development skills out of it, while 
 - Hosted on a Bluehost.
 
 ## Usage
-### Entering Actions
+### Entering Actions 
 This page is designed to capture single actions that occur between two contestants and sometimes just one contestant <br>
 To illustrate, I'll walk through the workflow for watching Love Island Australia, Season 3, Episode 4, supposing Jess pulled Aaron for a chat (no spoilers this is hypothetical....or is it??)
 1. Navigate to https://loveislandstats.com/action-entry/
@@ -28,3 +28,18 @@ To illustrate, I'll walk through the workflow for watching Love Island Australia
 9. If successful, you should see "✅ Jess + Chat Pull + Aaron ✅" At the top of the page.
 
 ![Action Entry Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-action-demo.gif)
+
+### Adding or Removing Islanders
+In Love Island, contestants (Islanders) can be dumped from the island, and new Islanders can join. To manage this with our data collection app, we do the following:
+1. Navigate to https://loveislandstats.com/edit-islanders/
+2. Enter the name of the islander
+3. Click the button for the islander's gender, and whether they are Entering or Exiting
+4. Click "Edit Islanders" 
+5. If successful, you should see "✅ Alex + Enter ✅" at the top of the page (With whatever criteria you entered).
+
+![Action Entry Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-islander-demo.gif)
+
+### Where the Data Goes on the Backend
+The database is a mySQL database, the standard for WordPress sites. I've added tables for the islanders, as well as actions. See the gif below to see how the above examples show up in the database.
+
+![Action Entry Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-database-demo.gif)

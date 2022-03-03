@@ -26,3 +26,5 @@ To illustrate, I'll walk through the workflow for watching Love Island Australia
 7. Enter any additional notes in the "Notes" field
 8. Press "Submit Action"
 9. If successful, you should see "✅ Jess + Chat Pull + Aaron ✅" At the top of the page.
+
+![Action Entry Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-action-demo.gif)

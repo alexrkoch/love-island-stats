@@ -42,6 +42,14 @@ In Love Island, contestants (Islanders) can be dumped from the island, and new I
 ![Edit Islanders Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-islander-demo.gif)
 
 ### Where the Data Goes on the Backend
-The database is a mySQL database, the standard for WordPress sites. I've added tables for the islanders, as well as actions. See the gif below to see how the above examples show up in the database.
+The database is a mySQL database, the standard for WordPress sites. I've added tables for the islanders, as well as actions. See the screenshots below to see how the above examples show up in the database.
 
-![Database Demo](https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-database-demo.gif)
+Here is the full wp Database:<br>
+<img src="https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-database-structure.png" alt="Database Structure" width="300"/>
+
+This is what the Actions table looks like, notice the last entry from our example above: <br>
+<img src="https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-actions-table.png" alt="Actions Table" width="800"/>
+
+This is what the Islanders table looks like (boys), noticed the last entry from our example above:<br>
+<img src="https://github.com/alexrkoch/love-island-stats/blob/main/media/love-island-stats-islanders-table.png" alt="Islanders Table" width="400"/>
+
